@@ -11,9 +11,9 @@
 .menuLink {
   text-decoration: none;
   color: green;
-  font-size: 16px;
+  font-size: 17px;
   display: block;
-  padding: 8px 16px;
+  padding: 8px 17px;
   transition: background-color 0.3s ease;
 }
 
