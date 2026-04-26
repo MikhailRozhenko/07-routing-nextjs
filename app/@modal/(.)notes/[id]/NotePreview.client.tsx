@@ -8,11 +8,11 @@ import Loader from '@/components/Loader/Loader';
 import Modal from '@/components/Modal/Modal';
 import { fetchNoteById } from '@/lib/api';
 
-type NotePreviewProps = {
+type Props = {
   id: string;
 };
 
-export default function NotePreview({ id }: NotePreviewProps) {
+export default function NotePreviewClient({ id }: Props) {
   const router = useRouter();
 
   const {

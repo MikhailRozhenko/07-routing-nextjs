@@ -18,7 +18,7 @@ import NoteForm from '@/components/NoteForm/NoteForm';
 import NoteList from '@/components/NoteList/NoteList';
 import Pagination from '@/components/Pagination/Pagination';
 import SearchBox from '@/components/SearchBox/SearchBox';
-import css from '../page.module.css';
+import css from '../../../page.module.css';
 
 export default function NotesClient({ tag }: NotesClientProps) {
   const [search, setSearch] = useState('');
