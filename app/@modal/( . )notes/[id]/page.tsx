@@ -6,7 +6,7 @@ type Props = {
   }>;
 };
 
-export default async function NotePreviewPage({ params }: Props) {
+export default async function ModelNotusIDPage({ params }: Props) {
   const { id } = await params;
 
   return <NotePreview id={id} />;
