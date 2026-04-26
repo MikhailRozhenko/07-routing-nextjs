@@ -6,7 +6,7 @@ export default function NotesFilterLayout({
   sidebar: React.ReactNode;
 }) {
   return (
-    <div style={{ display: 'flex', gap: '20px' }}>
+    <div>
       <aside>{sidebar}</aside>
       <main>{children}</main>
     </div>
