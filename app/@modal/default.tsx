@@ -1,3 +1,3 @@
-export default function ModelDefault() {
+export default function Default() {
   return null;
 }
